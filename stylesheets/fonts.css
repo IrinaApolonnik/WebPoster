@@ -1,0 +1,11 @@
+@font-face {
+font-family: "Baymax";
+src: url("../fonts/Baymax.otf") format("opentype");
+font-style: normal;
+}
+@font-face {
+font-family: "comfortaa";
+src: url("../fonts/comfortaa.ttf") format("truetype");
+font-style: bold;
+font-weight: lighter;
+}
