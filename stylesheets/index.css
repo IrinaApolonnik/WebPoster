@@ -11,7 +11,93 @@ body {
   margin: 0 auto;
   background: #DEFFFF;
 }
+* {
+  box-sizing: border-box;
+}
+.container {
+  position:relative;
+  display: block;
+  width: 300px;
+  height: 50px;
+  padding: 15px 0;
+  background: gold;
+  overflow: hidden;
+}
+.row{
+  width: 750px;
+  height: 20px;
+  background: pink;
+  position: absolute;
+  animation: row 5s linear infinite;
+}
+.btn {
+  width: 200px;
+  height: 200px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 5px;
+  padding: 80px 0;
+}
+.btn:hover {
+  background: gold;
+  color: black;
+  transition: all .6s;
+}
+.btn:hover ~ .container .row {
+  animation-play-state: paused;
+}
+@keyframes row {
+0% {right: -750px;}
+100% {right: calc(100% - 300px);}
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  100%  {opacity: 0;}
+}
+.clock {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.cl-e {
+  width: 60px;
+  height: 100px;
+  display: inline-block;
+  margin: 0 2px;
+  background: black;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+}
+.cl-d {
+  display: inline-block;
+  width:20px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  animation: blink .5s alternate linear infinite;
 
+}
+.num {
+  width: 60px;
+  line-height: 100px;
+  font-size: 60px;
+  position: absolute;
+}
+.sec-e {
+  animation: sec 10s steps(10) infinite;
+}
+@keyframes sec {
+ 0% {top:0;}
+ 100% {top:-1000%;}
+}
 .border{
   border: 3px solid #FF7596;
   border-radius: 65px;
@@ -62,7 +148,7 @@ footer {
   position: relative;
   width: 631px;
   height: 281px;
-  margin: -55px 0 0 25px;
+  margin: -45px 0 0 25px;
   z-index: 2;
 }
 .paws img, .pawsp img {
@@ -91,15 +177,24 @@ footer {
   background: white;
   width: 385px;
   height: 150px;
+  overflow: hidden;
 }
 .sound {
   background: #E9FFE3;
   width: 700px;
-  height: 443px;
+  height: 465px;
   margin: 10px 0;
 }
 .drops {
   margin-left: auto;
+}
+.drops img:first-of-type {
+  position: absolute;
+  z-index: 1;
+}
+/* .drops img:last-of-type {
+  position: absolute;
+  z-index: 0; */
 }
 .pawsp {
   margin-top: 10px;
@@ -146,7 +241,7 @@ footer {
 .time {
   position: relative;
   width: 700px;
-  height: 446px;
+  height: 470px;
   background: white;
   margin: -375px 0 0 275px;
   z-index: 0;
