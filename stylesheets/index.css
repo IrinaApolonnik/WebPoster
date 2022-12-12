@@ -1,0 +1,261 @@
+html {
+ background:#DEFFFF;
+ display: block;
+ height: 100%;
+}
+body {
+  height: auto;
+  width: 1440px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: #DEFFFF;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  position:relative;
+  display: block;
+  width: 300px;
+  height: 50px;
+  padding: 15px 0;
+  background: gold;
+  overflow: hidden;
+}
+.row{
+  width: 750px;
+  height: 20px;
+  background: pink;
+  position: absolute;
+  animation: row 5s linear infinite;
+}
+.btn {
+  width: 200px;
+  height: 200px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 5px;
+  padding: 80px 0;
+}
+.btn:hover {
+  background: gold;
+  color: black;
+  transition: all .6s;
+}
+.btn:hover ~ .container .row {
+  animation-play-state: paused;
+}
+@keyframes row {
+0% {right: -750px;}
+100% {right: calc(100% - 300px);}
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  100%  {opacity: 0;}
+}
+.clock {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.cl-e {
+  width: 60px;
+  height: 100px;
+  display: inline-block;
+  margin: 0 2px;
+  background: black;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+}
+.cl-d {
+  display: inline-block;
+  width:20px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  animation: blink .5s alternate linear infinite;
+
+}
+.num {
+  width: 60px;
+  line-height: 100px;
+  font-size: 60px;
+  position: absolute;
+}
+.sec-e {
+  animation: sec 10s steps(10) infinite;
+}
+@keyframes sec {
+ 0% {top:0;}
+ 100% {top:-1000%;}
+}
+.border{
+  border: 3px solid #FF7596;
+  border-radius: 65px;
+}
+.first {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+.second {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+}
+.third {
+  position: relative;
+  width: 1440px;
+  height: 860px;
+}
+footer {
+  position: relative;
+  width: 1440px;
+  height: 340px;
+}
+.about {
+  position: relative;
+  display: inline-block;
+  background: #E9FFE3;
+  width: 471px;
+  height: 599px;
+  margin: 35px 0 0 30px;
+}
+.catbubs {
+  position: relative;
+  display: inline-block;
+  background: white;
+  width: 921px;
+  height: 528px;
+  margin: 0 0 -200px -30px;
+}
+.paws, .pawsp {
+  position: relative;
+  width: 631px;
+  height: 281px;
+  margin: -45px 0 0 25px;
+  z-index: 2;
+}
+.paws img, .pawsp img {
+  margin-right: 100px;
+}
+.paws img:nth-of-type(3), .pawsp img:nth-of-type(3) {
+  margin-left: 135px;
+}
+.bubls1, .bubls2 {
+  position: relative;
+  background: #FFDCE9;
+  width: 262px;
+  height: 782px;
+}
+.bubls1 {
+  margin-left: 30px;
+}
+.bubls2 {
+  margin-right: 30px;
+}
+.blocks3 {
+  width: 700px;
+  height: 782px;
+}
+.drops, .drips {
+  background: white;
+  width: 385px;
+  height: 150px;
+  overflow: hidden;
+}
+.sound {
+  background: #E9FFE3;
+  width: 700px;
+  height: 465px;
+  margin: 10px 0;
+}
+.drops {
+  margin-left: auto;
+}
+.drops img:first-of-type {
+  position: absolute;
+  z-index: 1;
+}
+/* .drops img:last-of-type {
+  position: absolute;
+  z-index: 0; */
+}
+.pawsp {
+  margin-top: 10px;
+}
+.mpt {
+  position: relative;
+  display: flex;
+  width: 695px;
+  height: 380px;
+  margin: -200px 0px 0px auto;
+  margin-right: 155px;
+  z-index: 1;
+}
+.moscow, .spb, .torzhok, .logo {
+  width: 235px;
+  height: 380px;
+  /* margin: 0 -1px; */
+}
+.moscow, .torzhok {
+  background: #FFF3E8;
+}
+.spb, .letters {
+  background: #FFDCE9;
+}
+.spb {
+  margin-left: -2px;
+}
+.torzhok {
+  margin-left: -2px;
+}
+.logo {
+  position: relative;
+  background: #E9FFE3;
+  margin: -230px 0 0 140px;
+  z-index: 1;
+}
+.letters {
+  position: relative;
+  width: 255px;
+  height: 240px;
+  margin: -145px 0 0 205px;
+  z-index: 2;
+}
+.time {
+  position: relative;
+  width: 700px;
+  height: 470px;
+  background: white;
+  margin: -375px 0 0 275px;
+  z-index: 0;
+}
+.cat {
+  position: relative;
+  width: 660px;
+  height: 680px;
+  z-index: 2;
+  margin: -570px 80px 0px 0px;
+  margin-left: auto;
+}
+.footer {
+  margin: 20px auto;
+  width: 1380px;
+  height: 290px;
+}
