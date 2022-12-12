@@ -1,11 +1,16 @@
 @font-face {
-font-family: "Baymax";
-src: url("../fonts/Baymax.otf") format("opentype");
-font-style: normal;
+  font-family: "nishipi";
+  src: url("../fonts/Baymax.otf");
+  src: local("Baymax"),
+  url("../fonts/Baymax.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
 @font-face {
-font-family: "comfortaa";
-src: url("../fonts/comfortaa.ttf") format("truetype");
-font-style: bold;
-font-weight: lighter;
+  font-family: "nishipi";
+  src: url("../fonts/comfortaa.ttf");
+  src: local("comfortaa"),
+  url("../fonts/comfortaa.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
 }

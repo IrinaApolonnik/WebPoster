@@ -1,0 +1,348 @@
+html {
+  font-family: nishipi;
+ background:#DEFFFF;
+ display: block;
+ height: 100%;
+}
+body {
+  height: auto;
+  width: 1440px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: #DEFFFF;
+}
+* {
+  box-sizing: border-box;
+}
+h1, h2, p {
+  color: #FF7596;
+}
+h2 {
+  font-size: 64px;
+  line-height: 70px;
+}
+.border{
+  border: 3px solid #FF7596;
+  border-radius: 65px;
+}
+.first {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+.second {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+}
+.third {
+  position: relative;
+  width: 1440px;
+  height: 860px;
+}
+footer {
+  position: relative;
+  width: 1440px;
+  height: 340px;
+}
+.about {
+  position: relative;
+  display: inline-block;
+  background: #E9FFE3;
+  width: 471px;
+  height: 599px;
+  margin: 35px 0 0 30px;
+  padding: 80px 0 0 25px;
+}
+.about h2 {
+  display: inline-block;
+}
+.e{
+  margin-right: 10px
+}
+.about p {
+  font-size: 36px;
+  line-height: 52px;
+  letter-spacing: -1.5%;
+  font-style: italic;
+}
+.pomurchim {
+  position:absolute;
+  display: flex;
+  top: 95px;
+  right:40px;
+}
+.pomurchim p {
+  font-size: 180px;
+}
+.catbubs {
+  position: relative;
+  display: inline-block;
+  background: white;
+  width: 921px;
+  height: 528px;
+  margin: 0 0 -310px -30px;
+}
+.paws, .pawsp {
+  position: relative;
+  width: 631px;
+  height: 281px;
+  margin: -55px 0 0 25px;
+  z-index: 2;
+}
+.paws div, .pawsp div {
+  position: relative;
+  display: inline-block;
+  width: 146px;
+  height: 137px;
+  margin-right: 100px;
+}
+.paws div:nth-of-type(3), .pawsp div:nth-of-type(3) {
+  margin-left: 135px;
+}
+.lpaw {
+  background: url('../images/lpawp.svg')
+}
+.rpaw {
+  background: url('../images/rpawp.svg')
+}
+.lpawp {
+  background: url('../images/lpaw.svg')
+}
+.rpawp {
+  background: url('../images/rpaw.svg')
+}
+.bubls1, .bubls2 {
+  position: relative;
+  background: #FFDCE9;
+  width: 262px;
+  height: 782px;
+  overflow: hidden;
+}
+.bubls1 {
+  margin-left: 30px;
+}
+.bublsmain1, .bublsmain2 {
+  position: relative;
+  margin-left: 60px;
+}
+.bubls2 {
+  margin-right: 30px;
+}
+.blocks3 {
+  width: 700px;
+  height: 782px;
+}
+.drops, .drips {
+  background: white;
+  width: 385px;
+  height: 150px;
+}
+.sound {
+  /* background: #E9FFE3; */
+  width: 700px;
+  height: 443px;
+  margin: 10px 0;
+  overflow:hidden;
+    background: url('../images/rainbow.svg');
+}
+.kitc {
+  position: absolute;
+  width: 312px;
+  height: 272px;
+  z-index: 1;
+  margin: -356px 0px 0px 194px;
+}
+.vibr {
+  width: 698px;
+  height: 443px;
+  position: relative;
+  margin: -450px 0px 0px -5px;
+  z-index: 2;
+  padding: 20px 0;
+}
+
+.drops {
+  overflow: hidden;
+  margin-left: auto;
+  overflow:hidden;
+  background: url('../images/dropscolor.svg');
+}
+
+.pawsp {
+  margin-top: 10px;
+}
+.mpt {
+  position: relative;
+  display: flex;
+  width: 695px;
+  height: 380px;
+  margin: -200px 0px 0px auto;
+  margin-right: 155px;
+  z-index: 1;
+}
+.moscow, .moskva, .piter, .spb, .torzhok, .logo {
+  width: 235px;
+  height: 380px;
+  overflow: hidden;
+}
+.moscow, .torzhok {
+  background: #FFF3E8;
+}
+.spb, .letters {
+  background: #FFDCE9;
+}
+.spb {
+  margin-left: -2px;
+}
+.torzhok {
+  margin-left: -2px;
+}
+.gorod {
+  position: absolute;
+  transform: rotate(270deg);
+  display: flex;
+  z-index: 1;
+}
+.gorod h2 {
+  margin: 0 2px;
+}
+.moskva {
+  top:0;
+  left:160px;
+}
+.piter {
+  top:-25px;
+  left:390px;
+}
+.tor {
+  top:155px;
+  left:465px;
+}
+.wavep1, .waveb1, .waveg1 {
+  position: relative;
+  opacity: 50%;
+  z-index: 0;
+}
+.wavep2, .waveb2, .waveg2 {
+  position: relative;
+  opacity: 75%;
+  z-index: 2;
+}
+.wavep1{
+  margin: 80px 0px 0px 0px;
+}
+.wavep2 {
+  margin: -270px 0px 0px 0px;
+}
+.waveb1{
+  margin: 125px 0px 0px 0px;
+}
+.waveb2 {
+  margin: -320px 0px 0px 0px;
+}
+.waveb1{
+  margin: 125px 0px 0px 0px;
+}
+.waveb2 {
+  margin: -320px 0px 0px 0px;
+}
+.waveg1 {
+  margin: 65px 0px 0px 0px;
+}
+.waveg2{
+  margin-top: -320px;
+}
+.logo {
+  position: relative;
+  background: #E9FFE3;
+  margin: -230px 0 0 140px;
+  padding: 80px 40px;
+  z-index: 1;
+}
+.logo img {
+  position:
+}
+.letters {
+  position: relative;
+  width: 255px;
+  height: 240px;
+  margin: -145px 0 0 205px;
+  z-index: 2;
+}
+.letters h2 {
+  position: absolute;
+  top:-2px;
+  left:-2px;
+  z-index: 1;
+}
+.blue h2 {
+  position: absolute;
+  top:4px;
+  left:4px;
+  color:#DEFFFF;
+  z-index: 0;
+}
+.time {
+  position: relative;
+  width: 700px;
+  height: 446px;
+  background: white;
+  margin: -375px 0 0 275px;
+  z-index: 0;
+  padding: 50px 10px;
+}
+.cat {
+  position: relative;
+  width: 660px;
+  height: 680px;
+  z-index: 2;
+  margin: -540px 80px 0px 0px;
+  margin-left: auto;
+}
+.kotik {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tie {
+ position: absolute;
+ left: 455px;
+ margin-top:230px;
+}
+.tiec {
+ position: absolute;
+ left: 450px;
+ margin-top: 220px;
+}
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  width: 1380px;
+  height: 290px;
+  background: #FFF3E8;
+  padding: 85px 100px 85px 50px;
+}
+.hse, .design {
+  position: relative;
+  display: flex;
+}
+.footer p {
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.5%;
+  font-style: italic;
+}
+.bdz {
+  margin-left: -50px;
+}
