@@ -129,12 +129,23 @@ footer {
 .bubls1 {
   margin-left: 30px;
 }
-.bublsmain1, .bublsmain2 {
+.bublsmain1, .bublsb2 {
   position: relative;
   margin-left: 60px;
+  z-index: 1;
+}
+.bublsb1 {
+  position: relative;
+  margin:-1455px 0 0 70px;
+  z-index: 0;
 }
 .bubls2 {
   margin-right: 30px;
+}
+.bublsmain2 {
+  position: relative;
+  margin:-1455px 0 0 70px;
+  z-index: 2;
 }
 .blocks3 {
   width: 700px;
@@ -144,14 +155,22 @@ footer {
   background: white;
   width: 385px;
   height: 150px;
+    overflow: hidden;
+}
+.drops {
+  margin-left: auto;
+  background: url('../images/dropscolor.svg');
+}
+.drips {
+  background: url('../images/drips.svg');
 }
 .sound {
   /* background: #E9FFE3; */
   width: 700px;
   height: 443px;
-  margin: 10px 0;
+  margin: 20px 0;
   overflow:hidden;
-    background: url('../images/rainbow.svg');
+  background: url('../images/rainbow.svg');
 }
 .kitc {
   position: absolute;
@@ -169,15 +188,73 @@ footer {
   padding: 20px 0;
 }
 
-.drops {
-  overflow: hidden;
-  margin-left: auto;
-  overflow:hidden;
-  background: url('../images/dropscolor.svg');
-}
 
+.murr {
+  position: absolute;
+}
+.rrr, .mmm  {
+  font-size: 128px;
+}
+.rr, .rr1, .mm {
+  font-size: 64px;
+}
+.r, .r1, .r2, .m, .m1 {
+  font-size: 40px;
+}
+.rrr, .mmm, .rr, .rr1, .mm, .r, .r1, .r2, .m, .m1{
+  position: absolute;
+  display: flex;
+  z-index: 3;
+}
 .pawsp {
   margin-top: 10px;
+}
+.rrr {
+  margin-top: -287px;
+  margin-left: 317px;
+  transform: rotate(-19deg);
+}
+.rr {
+  margin-top: -98px;
+  margin-left: 177px;
+  transform: rotate(15deg);
+}
+.rr1 {
+  margin-top: 95px;
+  margin-left: 323px;
+  transform: rotate(-19deg);
+}
+.r {
+  margin-top: -354px;
+  margin-left: 300px;
+  transform: rotate(15deg);
+}
+.r1 {
+  margin-top: -14px;
+  margin-left: 318px;
+  transform: rotate(-13deg);
+}
+.r2{
+  margin-top: 227px;
+  margin-left: 262px;
+  transform: rotate(15deg);
+}
+.mmm {
+  margin-top: 191px;
+  margin-left: 768px;
+}
+.mm{
+  margin-top: -205px;
+  margin-left: 865px;
+}
+.m {
+  margin-top: 0;
+  margin-left: 1029px;
+  transform: rotate(90deg);
+}
+.m1 {
+  margin-top: 308px;
+  margin-left: 1012px;
 }
 .mpt {
   position: relative;
@@ -262,13 +339,9 @@ footer {
 }
 .logo {
   position: relative;
-  background: #E9FFE3;
+  background:url('../images/logo1.svg');
   margin: -230px 0 0 140px;
-  padding: 80px 40px;
   z-index: 1;
-}
-.logo img {
-  position:
 }
 .letters {
   position: relative;
@@ -322,6 +395,7 @@ footer {
  left: 450px;
  margin-top: 220px;
 }
+
 .footer {
   position: relative;
   display: flex;

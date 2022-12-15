@@ -8,22 +8,20 @@
   /* animation-iteration-count: 1;
   animation-play-state: running; */
 }
-.about h2, .footer h2 {
+.about h2, .footer h2, .rrr p, .mmm p, .rr p, .rr1 p, .mm p, .r p, .r1 p, .r2 p, .m p, .m1 p {
   transition: all .5s ease-out;
 }
-.about h2:hover, .footer h2:hover {
+.about h2:hover, .footer h2:hover, .rrr p:hover, .mmm p:hover, .rr p:hover, .rr1 p:hover, .mm p:hover, .r p:hover, .r1 p:hover, .r2 p:hover, .m p:hover, .m1 p:hover {
   transform: scale(1.5);
   transition: all .5s ease-out;
   color:#DEFFFF;
 }
-
-.rpaw, .rpawp{
+.rpaw, .rpawp, .rrr, .rr, .rr1, .mmm, .mm{
   animation: levitation 4s ease-in-out -0.25s infinite alternate;
 }
-.lpawp, .lpaw {
+.lpawp, .lpaw, .r, .r1, .r2, .m, .m1{
   animation: levitation 4s ease-in-out infinite alternate;
 }
-
 .lpaw img, .lpawp img {
   transition: all .9s ease-out;
 }
@@ -44,10 +42,16 @@
 .drops:hover {
   animation-play-state: paused;
 }
-.bublsmain1 {
+.drips{
+  animation: drips .75s steps(1) infinite;
+}
+.drips:hover {
+  animation-play-state: paused;
+}
+.bublsmain1, .bublsb1 {
   animation: bublsmain1 4s linear infinite;
 }
-.bublsmain2 {
+.bublsmain2, .bublsb2 {
   animation: bublsmain2 4s linear infinite;
 }
 .kitc {
@@ -60,8 +64,14 @@
 .sound {
   animation: rainbow 4s linear  infinite alternate;
 }
+.vibr {
+  animation: vibr 12s cubic-bezier(0.45, 0.05, 0.55, 0.95)  infinite;
+  animation-play-state: paused;
+  transition: all .9s ease-out;
+}
 .vibr:hover {
   animation: vibr 12s cubic-bezier(0.45, 0.05, 0.55, 0.95)  infinite;
+  transition: all .9s ease-out;
 }
 
 .wavep1 {
@@ -131,6 +141,13 @@
 .letters{
   animation: backcol 6s cubic-bezier(0.74, -0.05, 0.42, 1.18) 0s infinite;
 }
+.logo img {
+  transition: all .7s ease-out;
+}
+.logo img:hover {
+  opacity: 0;
+  transition: all .7s ease-out;
+}
 .time img {
   animation: blink 5s alternate linear infinite;
 }
@@ -157,6 +174,17 @@
   25% {background-position: -47px;}
   50% {background-position: -108px;}
   75% {background-position: -165px;}
+}
+@keyframes drips {
+  0%{background-position: 0;}
+  12.5%{background-position: -385px;}
+  25%{background-position:-770px;}
+  37.5%{background-position:-1155px;}
+  50%{background-position:-1540px;}
+  62.5%{background-position:-1925px;}
+  75%{background-position:-2310px;}
+  87.5%{background-position:-2695px;}
+  100% {background-position:0;}
 }
 @keyframes bublsmain1 {
   0% {top:0px;}
@@ -205,7 +233,7 @@
   50%{opacity: 1;}
   60%{opacity:.5}
   70%{opacity:1;}
-  80%{opacity:.25; }
+  80%{opacity:.25;}
   90% {opacity:1}
   100%  {opacity: 0;}
 }
