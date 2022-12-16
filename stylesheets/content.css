@@ -88,7 +88,31 @@ footer {
   background: white;
   width: 921px;
   height: 528px;
-  margin: 0 0 -310px -30px;
+  margin: 0 0 -290px -30px;
+  overflow: hidden;
+
+}
+.onebub {
+  position: absolute;
+  width: 97px;
+  height: 93px;
+  margin: 162px 0px 0px 665px;
+  z-index: 2;
+}
+.kitbub1 {
+  position: absolute;
+
+}
+.kitbub11 {
+  position: absolute;
+  margin: 10px 0 0 10px;
+
+}
+.catbubsmain, .catbubsshadow {
+  position: absolute;
+  display: inline-block;
+  width: 921px;
+  height: 528px;
 }
 .paws, .pawsp {
   position: relative;
