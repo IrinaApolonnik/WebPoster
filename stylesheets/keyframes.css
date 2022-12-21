@@ -16,11 +16,14 @@
   transition: all .5s ease-out;
   color:#DEFFFF;
 }
-.rpaw, .rpawp, .rrr, .rr, .rr1, .mmm, .mm{
+.rpaw, .rpawp, .rrr, .rr, .rr1, .mmm, .mm, .kitbub1, .kitbub2, .kitbub3, .kitbub6, .kitbub7 {
   animation: levitation 4s ease-in-out -0.25s infinite alternate;
 }
-.lpawp, .lpaw, .r, .r1, .r2, .m, .m1{
+.lpawp, .lpaw, .r, .r1, .r2, .m, .m1, .kitbub11, .kitbub22, .kitbub33, .kitbub44, .kitbub55, .kitbub66, .kitbub77 {
   animation: levitation 4s ease-in-out infinite alternate;
+}
+.kitbub4, .kitbub5 {
+  animation: levitation 4s ease-in-out -0.5s infinite alternate;
 }
 .lpaw img, .lpawp img {
   transition: all .9s ease-out;
@@ -54,10 +57,10 @@
 .bublsmain2, .bublsb2 {
   animation: bublsmain2 4s linear infinite;
 }
-.kitc {
+.kitc, .kitbub3 img, .kitbub4 img, .kitbub5 img, .kitbub7 img {
   transition: all 1s ease-out;
 }
-.kitc:hover, .vibr:hover ~ .kitc {
+.kitc:hover, .vibr:hover ~ .kitc, .kitbub3 img:hover, .kitbub4 img:hover, .kitbub5 img:hover, .kitbub7 img:hover{
   opacity: 0;
   transition: all 1s ease-out;
 }

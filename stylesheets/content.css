@@ -106,14 +106,63 @@ footer {
 .kitbub11 {
   position: absolute;
   margin: 10px 0 0 10px;
-
 }
+
+
 .catbubsmain, .catbubsshadow {
   position: absolute;
   display: inline-block;
   width: 921px;
   height: 528px;
 }
+.catbubsmain div, .catbubsshadow div {
+  position: absolute;
+}
+.kitbub2 {
+  margin: 75px 0 0 55px;
+}
+.kitbub22 {
+  margin: 85px 0 0 65px;
+}
+.kitbub3 {
+  width: 219px;
+  height: 223px;
+  margin: 63px 0 0 197px;
+  background: url('../images/kitbub333.svg');
+}
+.kitbub33 {
+  margin: 73px 0 0 207px;
+}
+.kitbub4 {
+  width: 337px;
+  height: 295px;
+  margin: 101px 0 0 443px;
+  background: url('../images/kitbub444.svg');
+}
+.kitbub44 {
+  margin: 111px 0 0 453px;
+}
+.kitbub5 {
+  margin: 198px 0 0 -138px;
+  background: url('../images/kitbub555.svg');
+}
+.kitbub55 {
+  margin: 208px 0 0 -128px;
+}
+.kitbub6 {
+  margin: 353px 0 0 340px;
+}
+.kitbub66 {
+  margin: 363px 0 0 350px;
+}
+.kitbub7 {
+  margin: 216px 0 0 547px;
+  background: url('../images/kitbub777.svg');
+}
+.kitbub77 {
+  margin: 226px 0 0 557px;
+}
+
 .paws, .pawsp {
   position: relative;
   width: 631px;
