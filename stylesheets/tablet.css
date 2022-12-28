@@ -1,4 +1,4 @@
-@media only screen and (min-width:376px) and (max-width:1025px) {
+@media only screen and (min-width:376px) and (max-width:1024px) {
   html {
     font-family: nishipi;
     background:#DEFFFF;
@@ -26,7 +26,6 @@
     width: auto;
     height: 100%;
   }
-
   .border{
     border: 3px solid #FF7596;
     border-radius: 65px;
@@ -75,7 +74,6 @@
     width: 671px;
     height: 382px;
     overflow: hidden;
-
   }
   .onebub {
     position: absolute;
@@ -96,7 +94,6 @@
     width: 61px;
     height: 58px;
   }
-
   .catbubsmain, .catbubsshadow {
     position: absolute;
     display: inline-block;
@@ -174,7 +171,6 @@
     height: 355px;
     margin: 151px 0 0 450px;
   }
-
   .paws {
     position: absolute;
     width: 631px;
@@ -208,7 +204,6 @@
     background: url('../images/rpaw.svg');
     background-size: auto 100%;
   }
-
   .second {
     position: relative;
     width: 100%;
@@ -300,7 +295,6 @@
     100% {background-position:0px;}
   }
   .sound {
-    /* background: #E9FFE3; */
     width: 545px;
     height: 348px;
     margin: 325px auto;
@@ -501,7 +495,6 @@
     position: absolute;
     background:url('../images/logo1.svg');
     background-size:  auto 100%;
-    top: 0px;
     left: 20px;
     z-index: 1;
   }
@@ -548,8 +541,6 @@
   }
   .kotik {
     position: absolute;
-    top: 0;
-    left: 0;
   }
   .tie {
     width: 100px;
